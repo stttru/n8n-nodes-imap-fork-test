@@ -6,7 +6,7 @@
  */
 
 import { ICredentialTestFunctions, ICredentialsDecrypted, IExecuteFunctions, NodeOperationError } from 'n8n-workflow';
-import { executeWithHandler, Imap } from '../../nodes/Imap/Imap.node';
+import { executeWithHandler, Imap } from '../../nodes/Imap/ImapForkTest.node';
 import { createNodeParametersCheckerMock } from '../TestUtils/N8nMocks';
 import { ImapCredentialsData } from '../../credentials/ImapCredentials.credentials';
 import * as ImapUtils from '../../nodes/Imap/utils/ImapUtils';

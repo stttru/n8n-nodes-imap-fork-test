@@ -2,7 +2,7 @@ import { IExecuteFunctions } from 'n8n-workflow';
 import { ImapFlow } from 'imapflow';
 import { getMailboxListOperation } from '../../../nodes/Imap/operations/mailbox/functions/MailboxGetList';
 import { createMockLogger } from '../../TestUtils/N8nMocks';
-import { Imap } from '../../../nodes/Imap/Imap.node';
+import { Imap } from '../../../nodes/Imap/ImapForkTest.node';
 
 describe('MailboxGetList', () => {
   let mockContext: jest.Mocked<IExecuteFunctions>;
