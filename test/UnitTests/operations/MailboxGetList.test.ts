@@ -349,8 +349,8 @@ describe('MailboxGetList', () => {
 
     it('should have description property', () => {
       expect(imapNode.description).toBeDefined();
-      expect(imapNode.description.displayName).toBe('IMAP');
-      expect(imapNode.description.name).toBe('imap');
+      expect(imapNode.description.displayName).toBe('IMAP Fork');
+      expect(imapNode.description.name).toBe('imapForkTest');
     });
 
     it('should have execute method', () => {

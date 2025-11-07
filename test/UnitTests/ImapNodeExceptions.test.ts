@@ -192,7 +192,7 @@ describe('Imap Node - exceptions handling', () => {
             id: 'test-node-id',
             name: 'Imap Test Node',
             typeVersion: 1,
-            type: 'imap',
+            type: 'imapForkTest',
             position: [0, 0],
             disabled: false,
             parameters: paramValues
@@ -400,8 +400,8 @@ describe('Imap Node - exceptions handling', () => {
         // Arrange
         const credentials: ICredentialsDecrypted = {
           id: 'test-cred-id',
-          name: 'Test IMAP Credentials',
-          type: 'imapApi',
+          name: 'Test IMAP Fork Credentials',
+          type: 'imapForkApi',
           data: {
             user: 'test@example.com',
             password: 'password123',
@@ -439,8 +439,8 @@ describe('Imap Node - exceptions handling', () => {
         // Arrange
         const credentials: ICredentialsDecrypted = {
           id: 'test-cred-id',
-          name: 'Test IMAP Credentials',
-          type: 'imapApi',
+          name: 'Test IMAP Fork Credentials',
+          type: 'imapForkApi',
           data: {
             user: 'test@example.com',
             password: 'wrongpassword',

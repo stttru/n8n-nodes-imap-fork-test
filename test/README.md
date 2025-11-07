@@ -1,6 +1,6 @@
 # Test Directory
 
-This directory contains all Jest tests for the n8n-nodes-imap project.
+This directory contains all Jest tests for the n8n-nodes-imap-fork-test project. The upstream test layout originates from [`umanamente/n8n-nodes-imap`](https://github.com/umanamente/n8n-nodes-imap); updates here may be AI-assisted, so please review generated changes before relying on them.
 
 ## Running Tests
 

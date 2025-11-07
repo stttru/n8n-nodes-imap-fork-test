@@ -1,6 +1,16 @@
-# <img src="nodes/Imap/node-imap-icon.svg"  height="40"> <img src="https://gist.githubusercontent.com/umanamente/3aec0274e0d5f029ab76a16627825c67/raw/n8n-nodes-imap-coverage-badge.svg" align="right"> n8n-nodes-imap
+# <img src="nodes/Imap/node-imap-icon.svg"  height="40"> n8n-nodes-imap-fork-test
 
-This is an n8n community node that adds support for [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) email servers.
+This repository started as a fork of the original [n8n-nodes-imap](https://github.com/umanamente/n8n-nodes-imap) project but is now maintained independently by `stttru`. Future changes can diverge from upstream behaviour without preserving backward compatibility.
+
+> **Acknowledgement & Disclaimer**
+>
+> - Huge thanks to the upstream maintainers of [`umanamente/n8n-nodes-imap`](https://github.com/umanamente/n8n-nodes-imap) for the original implementation.
+> - This fork is maintained independently by the `stttru` team to ensure a fully controllable npm distribution (`n8n-nodes-imap-fork-test`).
+> - Compatibility with the upstream package is **not guaranteed**; expect breaking changes tailored to the needs of this fork.
+> - Updates in this fork are produced with the help of AI assistants and undergo manual review, but you should still audit before using in production.
+> - Use at your own risk; verify compatibility and security within your environment before adopting new releases.
+
+This is an n8n community node that adds support for [IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol) email servers. In the n8n UI the node appears as **“IMAP Fork”** to avoid clashing with the upstream module.
 
 * [Installation](#installation)  
 * [Operations](#operations)  
@@ -13,11 +23,11 @@ This is an n8n community node that adds support for [IMAP](https://en.wikipedia.
 
 Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation.
 
-Use `n8n-nodes-imap` in N8N settings to install the stable version.
+Use `n8n-nodes-imap-fork-test` in N8N settings to install the stable version.
 
-To install beta version, use `n8n-nodes-imap@beta`.
+To install beta version, use `n8n-nodes-imap-fork-test@beta`.
 
-NPMJS: [n8n-nodes-imap](https://www.npmjs.com/package/n8n-nodes-imap)
+NPMJS: [n8n-nodes-imap-fork-test](https://www.npmjs.com/package/n8n-nodes-imap-fork-test)
 
 
 ## Operations
@@ -82,4 +92,12 @@ When reporting bugs or issues:
 - Always enable debug mode first
 - Include the debug output in your issue report
 - Remove any sensitive information (passwords, email addresses, etc.) from logs
+- Mention whether you are using the upstream package or this fork when reporting issues
+- Note that this fork incorporates AI-generated changes; please double-check unexpected behaviour before filing upstream issues
 - Use our [issue templates](.github/ISSUE_TEMPLATE/) for structured bug reports
+
+## Credits
+
+- Original project: [`umanamente/n8n-nodes-imap`](https://github.com/umanamente/n8n-nodes-imap)
+- Fork maintainers: `stttru`
+- AI tooling: GitHub Copilot, GPT-based assistants — all generated changes are reviewed before release, yet please validate in your workflows.

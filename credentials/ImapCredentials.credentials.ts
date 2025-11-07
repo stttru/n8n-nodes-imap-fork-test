@@ -1,10 +1,10 @@
 import { ICredentialType, INodeProperties } from "n8n-workflow";
 
-export const IMAP_CREDENTIALS_NAME = "imapApi";
+export const IMAP_CREDENTIALS_NAME = "imapForkApi";
 
 export class ImapCredentials implements ICredentialType {
   name = IMAP_CREDENTIALS_NAME;
-  displayName = "IMAP Credentials";
+  displayName = "IMAP Fork Credentials";
   properties: INodeProperties[] = [
       {
       displayName: "User",

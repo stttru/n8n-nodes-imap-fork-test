@@ -1,13 +1,15 @@
 # Developer Guide
 
+> This fork builds upon the upstream [`umanamente/n8n-nodes-imap`](https://github.com/umanamente/n8n-nodes-imap) repository. It is maintained by `stttru`, may diverge significantly from upstream, and many edits are produced with AI tooling—double-check generated code before shipping to production environments.
+
 > 👨‍💻 **For Contributors**: See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed setup instructions, testing guidelines, and development workflow.
 
 ## Quick Start for Developers
 
 ```bash
 # Clone and install
-git clone https://github.com/umanamente/n8n-nodes-imap.git
-cd n8n-nodes-imap
+git clone https://github.com/stttru/n8n-nodes-imap-fork-test.git
+cd n8n-nodes-imap-fork-test
 npm install
 
 # Build and test

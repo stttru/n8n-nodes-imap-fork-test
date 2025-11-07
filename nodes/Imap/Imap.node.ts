@@ -12,15 +12,15 @@ import { ImapFlow } from 'imapflow';
 
 export class Imap implements INodeType {
   description: INodeTypeDescription = {
-    displayName: 'IMAP',
-    name: 'imap',
+    displayName: 'IMAP Fork',
+    name: 'imapForkTest',
     icon: 'file:node-imap-icon.svg',
     group: ['transform'],
     version: 1,
     subtitle: '={{ $parameter["operation"] + ": " + $parameter["resource"] }}',
-    description: 'Retrieve emails via IMAP',
+    description: 'Retrieve emails via IMAP using the n8n-nodes-imap-fork-test package',
     defaults: {
-      name: 'IMAP',
+      name: 'IMAP Fork',
     },
     inputs: [NodeConnectionTypes.Main],
     // eslint-disable-next-line n8n-nodes-base/node-class-description-outputs-wrong
@@ -79,9 +79,9 @@ export class Imap implements INodeType {
         options: [
           {
             // eslint-disable-next-line n8n-nodes-base/node-param-display-name-miscased
-            name: 'IMAP',
+            name: 'IMAP Fork Credentials',
             value: CREDENTIALS_TYPE_THIS_NODE,
-            description: 'Use credentials from this node',
+            description: 'Use credentials defined for IMAP Fork node',
           },
           {
             // eslint-disable-next-line n8n-nodes-base/node-param-display-name-miscased

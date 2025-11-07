@@ -1,19 +1,22 @@
 {
-  "name": "n8n-nodes-imap",
-  "version": "2.13.0",
+  "name": "n8n-nodes-imap-fork-test",
+  "version": "2.13.3",
   "description": "This node allows you to connect to an IMAP server and retrieve emails.",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/stttru/n8n-nodes-imap-fork-test#readme",
   "author": {
     "name": "Vasily Maslyukov",
     "email": "auro.coding@gmail.com"
   },
+  "bugs": {
+    "url": "https://github.com/stttru/n8n-nodes-imap-fork-test/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umanamente/n8n-nodes-imap.git"
+    "url": "git+https://github.com/stttru/n8n-nodes-imap-fork-test.git"
   },
   "main": "index.js",
   "scripts": {

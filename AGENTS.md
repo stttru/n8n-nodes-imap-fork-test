@@ -1,6 +1,6 @@
 # AI Agents & Copilot Guide
 
-This file provides quick guidance for AI agents and GitHub Copilot working on the n8n-nodes-imap project.
+This file provides quick guidance for AI agents and GitHub Copilot working on the n8n-nodes-imap-fork-test project (a maintained fork of the original n8n-nodes-imap repository). Credit goes to the upstream maintainers; this fork is reviewed by `stttru`, although many edits are AI-assisted—verify outputs carefully before merging.
 
 ## 📚 First, Read the Contributing Guide
 

@@ -1,6 +1,12 @@
-# Contributing to n8n-nodes-imap
+# Contributing to n8n-nodes-imap-fork-test
 
-Thank you for your interest in contributing to the n8n-nodes-imap project! This guide will help you set up your development environment and understand how to contribute effectively.
+Thank you for your interest in contributing to the `n8n-nodes-imap-fork-test` project! This repository started as a fork of the upstream [n8n-nodes-imap](https://github.com/umanamente/n8n-nodes-imap) package but is now developed independently, with functionality evolving as needed for this distribution.
+
+> **Upstream Acknowledgement & Risk Notice**
+> - Full credit to the original maintainers of `umanamente/n8n-nodes-imap`.
+> - This fork is maintained independently by `stttru` to provide a controllable npm release channel.
+> - Compatibility with the upstream project is **not** a goal; breaking changes may be introduced at any time to serve this fork.
+> - Many changes are drafted with AI assistance; always review generated code carefully before merging or deploying.
 
 ## 📋 Table of Contents
 
@@ -26,8 +32,8 @@ Thank you for your interest in contributing to the n8n-nodes-imap project! This 
 
 1. **Fork and clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/n8n-nodes-imap.git
-   cd n8n-nodes-imap
+   git clone https://github.com/YOUR_USERNAME/n8n-nodes-imap-fork-test.git
+   cd n8n-nodes-imap-fork-test
    ```
 
 2. **Install dependencies:**
@@ -67,7 +73,7 @@ When you're ready to test your node:
 
 1. **Build and link your node locally:**
    ```bash
-   # In your node directory (n8n-nodes-imap)
+   # In your node directory (n8n-nodes-imap-fork-test)
    npm run build
 
    # create a global link for your node package
@@ -87,7 +93,7 @@ When you're ready to test your node:
    cd <path-to-n8n-installation>
 
    # Link the node package (use the name from package.json)
-   npm link n8n-nodes-imap
+   npm link n8n-nodes-imap-fork-test
    ```
 
 ### Start n8n
@@ -102,7 +108,7 @@ n8n start
 
 Open n8n in your browser (typically http://localhost:5678). You should see your IMAP nodes when you search for them in the nodes panel.
 
-> **Important:** Search using the node name (e.g., "IMAP"), not the package name ("n8n-nodes-imap").
+> **Important:** Search using the node name ("IMAP Fork"), not the package name ("n8n-nodes-imap-fork-test").
 
 ### Development Workflow
 
